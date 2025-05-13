@@ -1,0 +1,53 @@
+/* estilos.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+td {
+    border: 0.05rem solid #333;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.color-amarillo {
+    background-color: yellow;
+}
+
+.color-verde {
+    background-color: green;
+}
+
+
+
+.color-azul {
+ background-color: blue;
+
+}
+
+
+.color-naranja {
+    background-color: orange;
+}
+
+.centro-imagen {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./dados.jpg');
+}
+
+.color-gris {
+
+    background-color: grey;
+}
